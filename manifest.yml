@@ -1,3 +1,4 @@
 applications:
 - name: node-sso
+  docker_image: stackatoapps/node-sso:latest
   mem: 128M
