@@ -3,7 +3,7 @@ var express = require('express'),
 
 app.get('/', function (req, res) {
 
-	// Read the VCAP_APPLICATION environment variable that's available to all Stackato applications
+	// Read the VCAP_APPLICATION environment variable that's available to all HPE Helion Stackato applications
     var app_json = process.env.VCAP_APPLICATION,
 
     // Parse it to JSON so we can read its properties
