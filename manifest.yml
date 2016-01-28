@@ -1,3 +1,5 @@
 applications:
 - name: node-sso
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack#v1.5.5
   memory: 128M
+  stack: cflinuxfs2
